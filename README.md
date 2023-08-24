@@ -1,5 +1,6 @@
 # TGA_biomass_compositions
 Determination of biomass composition using TGA
+(Link to paper to be added soon)
 
 # Files description
 M1_Load_Prepare_TGdata_Clean_version.mlx  - Read TGA text file, calculate DTG, and store in DTGdata_biomass.mat
