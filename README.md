@@ -10,8 +10,8 @@ More detail in (Link to paper to be added soon)
 
 # Files description
 <b>M1_Load_Prepare_TGdata_Clean_version.mlx </b>  - Read TGA text file, calculate DTG, and store in DTGdata_biomass.mat <br>
-<b>M2_Single_analysis.mlx</b> - Fit with 3 curves and calculate the final composition of cellulose, hemicellulose, and lignin <br>
-<b>M3_DTG_fitting.mlx</b> - Fit with 3 or 5 curves return fit result not adjusted <br>
+<b>M2_Single_analysis.mlx</b> - Fit with 3 curves and calculate the composition (wt% db) of cellulose, hemicellulose, and lignin <br>
+<b>M3_DTG_fitting.mlx</b> - Fit with 3 or 5 curves and calculate composition (wt% db) of cellulose, hemicellulose, and lignin <br>
 <br>
 <b>DTGdata_biomass.mat</b> - Store DTG data in struct format <br>
 <b>DTG_fit_3curves_biomass_fnc.mlx</b> - matlab function to fit and plot with 3 curves <br>
@@ -20,6 +20,6 @@ More detail in (Link to paper to be added soon)
 # Usage
 1. Since there is already some data available, you can try running M2 file directly. <br>
 2. To prepare data from TGA text file, use M1. Then, M2. <br>
-3. To fit multiple files in sequence with 3 or 5 curves use M3. <br>
+3. To analyze many files in sequence with 3 or 5 curves use M3. <br>
 <br>
 <b> Contact</b>: nanta @ umich . edu
