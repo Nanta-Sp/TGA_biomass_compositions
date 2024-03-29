@@ -22,4 +22,6 @@ More detail in (Link to paper to be added soon)
 2. To prepare data from TGA text file, use M1. Then, M2. <br>
 3. To analyze many files in sequence with 3 or 5 curves use M3. <br>
 <br>
-<b> Contact</b>: nanta @ umich . edu
+
+# Cite us
+Sophonrat, N., Wooldridge, M., Revisiting the determination of biomass compositions using thermogravimetric analysis and independent parallel reaction modeling, manuscript under preparation. xxxx.
