@@ -1,7 +1,7 @@
 # TGA_biomass_compositions
 Determination of biomass composition (cellulose, hemicellulose, lignin) using TGA <br>
 The total wt% dry basis  = extractives + ash (partial) + cellulose + hemicellulose + lignin <br>
-More detail in (Link to paper to be added soon)
+More detail in https://doi.org/10.1016/j.tca.2024.179814
 
 # Input require
 1. TGA text file <br>
@@ -9,6 +9,7 @@ More detail in (Link to paper to be added soon)
 3. Ash content of the extractives-free sample in wt% of extractives-free sample <br>
 
 # Files description
+MATLAB 2021
 <b>M1_Load_Prepare_TGdata_Clean_version.mlx </b>  - Read TGA text file, calculate DTG, and store in DTGdata_biomass.mat <br>
 <b>M2_Single_analysis.mlx</b> - Fit with 3 curves and calculate the composition (wt% db) of cellulose, hemicellulose, and lignin <br>
 <b>M3_DTG_fitting.mlx</b> - Fit with 3 or 5 curves and calculate composition (wt% db) of cellulose, hemicellulose, and lignin <br>
@@ -24,4 +25,5 @@ More detail in (Link to paper to be added soon)
 <br>
 
 # Cite us
-Sophonrat, N., Wooldridge, M., Revisiting the determination of biomass compositions using thermogravimetric analysis and independent parallel reaction modeling, manuscript under preparation. xxxx.
+Sophonrat, N., Wooldridge, M., Revisiting biomass compositions determination using thermogravimetric analysis and independent parallel reaction model, Thermochimica Acta
+Volume 739, 179814, 2024. https://doi.org/10.1016/j.tca.2024.179814
