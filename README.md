@@ -10,6 +10,7 @@ More detail in https://doi.org/10.1016/j.tca.2024.179814
 
 # Files description
 MATLAB 2021
+
 <b>M1_Load_Prepare_TGdata_Clean_version.mlx </b>  - Read TGA text file, calculate DTG, and store in DTGdata_biomass.mat <br>
 <b>M2_Single_analysis.mlx</b> - Fit with 3 curves and calculate the composition (wt% db) of cellulose, hemicellulose, and lignin <br>
 <b>M3_DTG_fitting.mlx</b> - Fit with 3 or 5 curves and calculate composition (wt% db) of cellulose, hemicellulose, and lignin <br>
